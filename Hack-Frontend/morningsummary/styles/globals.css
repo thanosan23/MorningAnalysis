@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@layer components {
+  .pause {
+    animation-play-state: paused;
+  }
+}
